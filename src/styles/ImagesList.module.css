@@ -1,0 +1,15 @@
+.ImagesListContainer{
+    width: 500px;
+    height: 600px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    overflow-y: scroll;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+.ImagesListContainer > * {
+    flex: 0 0 auto; /* Adjusts flex-grow, flex-shrink, and flex-basis properties */
+    /* margin-right: 10px; Adds spacing between items */
+  }
